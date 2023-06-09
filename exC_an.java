@@ -18,12 +18,15 @@ public class exC_an {
         System.out.println("Original");
         imprime(m, n, a);
         mulMatrizPelaTrasposta(m, n, a);
-
-        System.out.println("Identidade:");
-        System.out.println(ehIdentidade(m, n, a));
-
     }
 
+    /**
+     * Método que retorna a matriz resultante de uma matriz por sua trasposta
+     * 
+     * @param m     tamanho das linhas da matriz original
+     * @param n     tamanho das colunas da matriz original
+     * @param a[][] matriz original
+     */
     public static int[][] mulMatrizPelaTrasposta(int m, int n, int a[][]) {
 
         int i, j, k;
@@ -56,25 +59,5 @@ public class exC_an {
             }
             System.out.println();
         }
-    }
-
-    public static boolean ehIdentidade(int m, int n, int x[][]) {
-        if (m != n)
-            return false;
-
-        int i, j;
-        for (i = 0; i < m; i++) {
-            for (j = 0; j < n; j++) {
-                if (i == j) {
-                    if (x[i][j] != 1)
-                        return false;
-                } else {
-                    if (x[i][j] != 0)
-                        return false;
-
-                }
-            }
-        }
-        return true;
     }
 }
