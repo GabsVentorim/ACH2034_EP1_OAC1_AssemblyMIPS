@@ -1,7 +1,7 @@
 public class exD_an {
 
     public static void main(String[] args) {
-        // colocar exemplo de uso 
+        // colocar exemplo de uso
     }
 
     /**
