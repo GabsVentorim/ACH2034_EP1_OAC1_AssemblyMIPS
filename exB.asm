@@ -38,7 +38,7 @@ calculo:
     	addi $a1, $a1, 4     # Avancar para o proximo elemento em A
     	addi $a2, $a2, 4     # Avancar para o proximo elemento em B
     
-    	addi $a3, $a3, -1    # Decrementar o contador
+    	subu $a3, $a3, 1    # Decrementar o contador
     	
     	jal produtoescalar	#Volta ao metodo produto escalar para verificar se ainda ha posicoes para realizar o calculo
     	
