@@ -21,7 +21,6 @@ public class exB_an {
         for (int i = 0; i < tam; i++) {
             resp += v1[i] * v2[i];
         }
-        System.out.println(resp);
         return resp;
     }
 }
