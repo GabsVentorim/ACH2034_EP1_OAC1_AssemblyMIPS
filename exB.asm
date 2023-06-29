@@ -38,7 +38,11 @@ calculo:
     addi $a1, $a1, 4		# Avança para o próximo elemento em A
     addi $a2, $a2, 4		# Avança para o próximo elemento em B
     
+<<<<<<< HEAD
     subu $a3, $a3, 1		# Decrementar o contador
+=======
+    	subu $a3, $a3, 1    # Decrementar o contador
+>>>>>>> dc6f1d3b307d095c7bb961b90f791331abb5b4b8
     	
     jal produtoEscalar		# Volta ao produtoEscalar para verificar se ainda há 					
 							# posições para realizar o cálculo
